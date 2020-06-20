@@ -65,3 +65,7 @@
   * https://github.com/charlietag/test_generate_excel/compare/v0.0.0...master
 * Start to test caxlsx_rails
   * https://github.com/charlietag/test_generate_excel/compare/v0.0.1...master
+
+## Final Result
+
+![caxlsx_rails_sample.png](/screenshots/caxlsx_rails_sample.png.png)

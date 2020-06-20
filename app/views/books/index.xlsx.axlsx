@@ -1,0 +1,15 @@
+wb = xlsx_package.workbook
+
+head_style = wb.styles.add_style bg_color: "DDDDDD",  b: true
+i = 1
+
+wb.add_worksheet(name: "books_sheet_name") do |sheet|
+  @books.each do |b|
+    if i = 1
+      sheet.add_row ['name', 'author']
+      sheet.row_style 0, head_style
+    end
+    sheet.add_row [b.name, b.author]
+    i += 1
+  end
+end

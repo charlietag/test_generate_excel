@@ -5,6 +5,14 @@ class BooksController < ApplicationController
   # GET /books.json
   def index
     @books = Book.all
+    respond_to do |format|
+      format.html
+      #format.xlsx
+      format.xlsx do
+        render xlsx: "books-fixed_name.xlsx",
+          template: 'books/index.xlsx.axlsx'
+      end
+    end
   end
 
   # GET /books/1
