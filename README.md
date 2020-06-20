@@ -68,4 +68,4 @@
 
 ## Final Result
 
-![caxlsx_rails_sample.png](/screenshot/caxlsx_rails_sample.png.png)
+![caxlsx_rails_sample.png](/screenshots/caxlsx_rails_sample.png)
