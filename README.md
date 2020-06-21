@@ -23,7 +23,7 @@
 
 * jQuery
   * yarn add jquery
-    * test_rails_delayedjob_mailer_simpleform/app/javascript/packs/application.js
+    * test_generate_excel/app/javascript/packs/application.js
 
       ```bash
       import "jquery/src/jquery"
