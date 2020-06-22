@@ -62,7 +62,7 @@
 
 ## Changes
 * Basic config and setup
-  * https://github.com/charlietag/test_generate_excel/compare/v0.0.0...master
+  * https://github.com/charlietag/test_generate_excel/compare/v0.0.0...v0.0.1
 * Start to test caxlsx_rails
   * https://github.com/charlietag/test_generate_excel/compare/v0.0.1...master
 
